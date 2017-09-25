@@ -1,0 +1,26 @@
+{
+  "name": "vscode-gauge-tests",
+  "version": "0.0.1",
+  "description": "Starter template for writing JavaScript tests for Gauge",
+  "scripts": {
+    "test": "gauge run specs/"
+  },
+  "dependencies": {},
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^6.0.52",
+    "chai": "^4.1.1",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^3.6.0",
+    "spectron": "^3.7.2",
+    "typescript": "^2.0.3",
+    "vscode": "^1.0.3",
+    "webdriverio": "^4.8.0",
+    "webdriverjs-angular": "^0.1.3"
+  }
+}
